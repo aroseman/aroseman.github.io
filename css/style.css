@@ -1,4 +1,42 @@
-#myCarousel{
-    height: 500px;
-    width: 100%;
+#background img{
+    Opacity: .75;
+}
+
+#banner1{
+    position: absolute;
+    top: 60px;
+    left: 758px;
+    width: 404px;
+    height: 57px;
+    font-family: Roboto Mono;
+    font-size: 48px;
+    line-height: 48px;
+}
+#banner1 > p:nth-child(1){
+    color: #8C8181;         /* Combine with other banners */
+}
+
+#banner2{
+    position: absolute;
+    top: 127px;
+    left: 830px;
+    font-family: Roboto Mono;
+    font-size: 48px;
+    line-height: 56px;
+}
+#banner2 > p:nth-child(1){
+    color: #8C8181;
+}
+
+#navbar{
+    position: absolute;
+    top: 30px;
+    left:1580px;
+    width:320px;
+    font-size: 20px;
+}
+
+#navbar > a{
+    margin: 5px;
+    color: #8C8181;
 }
