@@ -39,4 +39,9 @@
 #navbar > a{
     margin: 5px;
     color: #8C8181;
+    border-bottom: solid 1px;
+}
+#navbar > a:hover{
+    text-decoration: none;
+    color:#aac0aa !important;
 }
